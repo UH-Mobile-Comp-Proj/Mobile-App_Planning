@@ -12,7 +12,11 @@
           <ion-label>Resources</ion-label>
         </ion-list-header>
           <ion-label>Sketches</ion-label>
-          <img src="assets/img/phone_placeholder.png" alt="sketch1">
+          <span class="image-align">
+          <button  (click)="image1click()">
+          <img src="assets/img/phone_placeholder.png" alt='sketch1' [height]='variableheight' [width]='variablewidth' >
+        </button>
+      </span>
       </ion-list>
   
 </ion-content>
