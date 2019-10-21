@@ -12,13 +12,12 @@ export class Tab3Page {
   constructor() {}
 
   image1click() {
-    if (this.variableheight === 225){
+    if (this.variableheight === 225) {
     this.variableheight = 900;
     this.variablewidth = 440;
-    }
-    else {
+    } else {
       this.variableheight = 225;
-      this.variablewidth = 110; 
+      this.variablewidth = 110;
     }
   }
 }
