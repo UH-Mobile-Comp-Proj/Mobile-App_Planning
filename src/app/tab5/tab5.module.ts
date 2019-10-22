@@ -19,7 +19,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild([{ path: '', component: Tab5Page }])
   ],
   declarations: [Tab5Page]
 })
