@@ -1,24 +1,30 @@
 <ion-header>
   <ion-toolbar>
     <ion-title text-center>Personas</ion-title>
+    <ion-title text-center size="small">(Click on images)</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-<ion-grid text-center>
+<ion-content >
   <ion-row>
       <div>
         <button  (click)="image_user_click()">
-          <img src="assets/img/1_sign-in.png" alt='sketch1'>
+            <ion-item [hidden]="!value1">
+                <ion-label floating>Email Address</ion-label>
+            </ion-item>
+          <img src="assets/img/person_with_event.jpg" alt='sketchuser' height=150 width=150 [hidden]="value1">
         </button>
       </div>
     </ion-row>
+    <ion-row style="height: 25px"></ion-row>
     <ion-row>
         <div>
           <button  (click)="image_event_click()">
-            <img src="assets/img/1_sign-in.png" alt='sketch1' >
+              <ion-item [hidden]="!value2">
+                  <ion-label floating>Email Address</ion-label>
+              </ion-item>
+            <img src="assets/img/event_organiser.jpg" alt='sketchevent' height=150 width=150 [hidden]="value2">
           </button>
         </div>
       </ion-row>
-   </ion-grid>
   </ion-content>
