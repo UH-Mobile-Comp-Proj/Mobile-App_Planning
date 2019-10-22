@@ -1,9 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Personas 
-    </ion-title>
+    <ion-title text-center>Personas</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+<ion-grid text-center>
+  <ion-row>
+      <div>
+        <button  (click)="image_user_click()">
+          <img src="assets/img/1_sign-in.png" alt='sketch1'>
+        </button>
+      </div>
+    </ion-row>
+    <ion-row>
+        <div>
+          <button  (click)="image_event_click()">
+            <img src="assets/img/1_sign-in.png" alt='sketch1' >
+          </button>
+        </div>
+      </ion-row>
+   </ion-grid>
+  </ion-content>

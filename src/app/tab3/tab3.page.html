@@ -1,8 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      App Sketches
-    </ion-title>
+    <ion-title text-center>App Sketches</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -16,10 +14,10 @@
         </button>
       </div>
     </ion-col>
-    <ion-col>Notes for image 1</ion-col>
+    <ion-col size="auto">{{notes1}}</ion-col>
     </ion-row>
     <ion-row>
-    <ion-col>Notes for image 2</ion-col>
+        <ion-col size="auto">{{notes2}}</ion-col>
     <ion-col>
       <div>
         <button  (click)="image2click()">
@@ -36,10 +34,10 @@
         </button>
       </div>
     </ion-col>
-    <ion-col>Notes for image 3</ion-col>
+    <ion-col size="auto">{{notes3}</ion-col>
   </ion-row>
     <ion-row>
-    <ion-col>Notes for image 4</ion-col>
+        <ion-col size="auto">{{notes4}}</ion-col>
     <ion-col>
       <div>
         <button  (click)="image4click()">
@@ -56,10 +54,10 @@
         </button>
       </div>
     </ion-col>
-    <ion-col>Notes for image 5</ion-col>
+    <ion-col size="auto">{{notes5}}</ion-col>
   </ion-row>
   <ion-row>
-      <ion-col>Notes for image 6</ion-col>
+      <ion-col size="auto">{{notes6}}</ion-col>
     <ion-col>
       <div>
         <button  (click)="image6click()">
@@ -76,7 +74,7 @@
         </button>
       </div>
     </ion-col>
-    <ion-col>Notes for image 7</ion-col>
+    <ion-col size="auto">{{notes7}}</ion-col>
   </ion-row>
 </ion-grid>
 </ion-content>

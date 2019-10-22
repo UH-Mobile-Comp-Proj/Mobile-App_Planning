@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
+  image_user_click(){
+
+  }
+  
+  image_event_click(){
+    
+  }
 
 }
