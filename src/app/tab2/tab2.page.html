@@ -5,23 +5,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content >
+<ion-content padding>
   <ion-row>
       <div>
         <button  (click)="image_user_click()">
             <ion-item [hidden]="!value1">
-                <ion-label floating>Email Address</ion-label>
+                <ion-label floating>User Persona</ion-label>
             </ion-item>
           <img src="assets/img/person_with_event.jpg" alt='sketchuser' height=150 width=150 [hidden]="value1">
         </button>
       </div>
     </ion-row>
+    
     <ion-row style="height: 25px"></ion-row>
     <ion-row>
         <div>
           <button  (click)="image_event_click()">
               <ion-item [hidden]="!value2">
-                  <ion-label floating>Email Address</ion-label>
+                  <ion-label floating>Event Organiser Persona</ion-label>
               </ion-item>
             <img src="assets/img/event_organiser.jpg" alt='sketchevent' height=150 width=150 [hidden]="value2">
           </button>

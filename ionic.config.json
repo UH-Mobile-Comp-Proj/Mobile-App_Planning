@@ -1,5 +1,8 @@
 {
   "name": "ionic-angular-course-tab",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
