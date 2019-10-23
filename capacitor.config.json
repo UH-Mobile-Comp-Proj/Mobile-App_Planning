@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "ionic-angular-course-tab",
+  "appId": "com.android.MobileCompProject",
+  "appName": "android.MobileCompProject",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www"
