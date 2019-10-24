@@ -10,7 +10,8 @@
       <div>
         <button  (click)="image_user_click()">
             <ion-item [hidden]="!value1">
-                <ion-label floating>User Persona</ion-label>
+                <ion-col>User Persona</ion-col>
+                <ion-col>My first user persona is someone who has moved to a new town or city and is looking for a way to make friends.  They are aged 25 to 35 years old and comfortable using technologies such as WhatsApp to communicate with friends and may have also experimented with dating apps.  In their free time they like to go to rock gigs and would like to meet up with people who have a similiar taste in music for a few drinks beforehand.</ion-col>
             </ion-item>
           <img src="assets/img/person_with_event.jpg" alt='sketchuser' height=150 width=150 [hidden]="value1">
         </button>
@@ -22,7 +23,8 @@
         <div>
           <button  (click)="image_event_click()">
               <ion-item [hidden]="!value2">
-                  <ion-label floating>Event Organiser Persona</ion-label>
+                  <ion-col>Event Organiser Persona</ion-col>
+                  <ion-col>My second persona is a fitness instructor who has set-up a new running group.  They want to encourage the social aspects of running but are finding it difficult to get people who have never run before to come along on their own.  They're hoping that by using Get2Together they can encourage people to come along to together and make new friends with an interest in running and socialising. </ion-col>
               </ion-item>
             <img src="assets/img/event_organiser.jpg" alt='sketchevent' height=150 width=150 [hidden]="value2">
           </button>

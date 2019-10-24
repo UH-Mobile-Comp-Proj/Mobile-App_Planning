@@ -12,20 +12,27 @@ export class Tab3Page {
   largeheight = 433.2;
   largewidth = 275.6;
 
-  initialnotes1 = 'Notes for image 1';
-  notes1 = 'Notes for image 1';
-  initialnotes2 = 'Notes for image 2';
-  notes2 = 'Notes for image 2';
-  initialnotes3 = 'Notes for image 3';
-  notes3 = 'Notes for image 3';
-  initialnotes4 = 'Notes for image 4';
-  notes4 = 'Notes for image 4';
-  initialnotes5 = 'Notes for image 5';
-  notes5 = 'Notes for image 5';
-  initialnotes6 = 'Notes for image 6';
-  notes6 = 'Notes for image 6';
-  initialnotes7 = 'Notes for image 7';
-  notes7 = 'Notes for image 7';
+  // tslint:disable-next-line: max-line-length
+  initialnotes1 = 'This is a fairly standard log in screen with the options you might expected to see in an app i.e. forgotten password option and user registration. There is also a separate option for event organisers to register in order to add events.';
+  notes1 = this.initialnotes1;
+  // tslint:disable-next-line: max-line-length
+  initialnotes2 = 'This is the screen that gathers information on the user.  Another information needs to be gathered to build a profile of the user to allow the app to finds suitable friends an events.  It is envisaged the information on location, age and interests would be selected from pull-down lists to restrict selection so the matching algorithm can work.';
+  notes2 = this.initialnotes2;
+  // tslint:disable-next-line: max-line-length
+  initialnotes3 = 'This is the screen that an event organiser would use to add an event.  As for user information the information will be selected from pull-down lists.';
+  notes3 = this.initialnotes3;
+  // tslint:disable-next-line: max-line-length
+  initialnotes4 = 'This would be a map view of events with different icons for different types of events.  The user can filter on date ranges and activities types.  It is envisaged that more information on events would be available if you click on an event icon.  It would also sure information on people you have said they are going to an event so you can invite them to meet up.';
+  notes4 = this.initialnotes4;
+  // tslint:disable-next-line: max-line-length
+  initialnotes5 = 'This is the screen that shows your list of friends and gives the option of messaging them or arranging to go to an event with them.  It also gives the option to end a connection.';
+  notes5 = this.initialnotes5;
+  // tslint:disable-next-line: max-line-length
+  initialnotes6 = 'This is the screen that shows the usual chat function so you can arrange to meet up with features that would allow you to report an inappropriate messaging.';
+  notes6 =  this.initialnotes6;
+  // tslint:disable-next-line: max-line-length
+  initialnotes7 = 'This shows all the invites you have received to an event, with the option to find more information, accept or decline.  If you accept then you would then be able to message the person to arrange to meet up.';
+  notes7 =  this.initialnotes7;
 
   variableheight1 = this.smallheight;
   variablewidth1 = this.smallwidth;

@@ -1,0 +1,7 @@
+{
+  "appId": "com.android.MobileCompProject",
+  "appName": "android.MobileCompProject",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
